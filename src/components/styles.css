@@ -1,0 +1,151 @@
+.logo {
+  color: #ff5c8d !important;
+  font-family: "Oswald", sans-serif;
+  /* font-weight: bold; */
+}
+
+.mouseHover {
+  font-family: "Oswald", sans-serif;
+  color: #423b3e !important;
+}
+
+.mouseHover::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  background-color: #ff5c8d;
+  display: block;
+  text-align: center;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.mouseHover:hover:after {
+  transform: scaleX(1);
+}
+
+#home {
+  background-color: #fccfdd;
+}
+
+.title-jumbotron {
+  font-family: "Poppins", sans-serif;
+  color: #ff5c8d;
+}
+
+.subtitle-jumbotron {
+  font-family: "Sevillana", cursive;
+  font-weight: lighter;
+}
+
+.button-jumbotron {
+  width: 50% !important;
+  /* padding: 0.5rem !important; */
+  background-color: #ff5c8d !important;
+  outline: none !important;
+  border: none !important;
+  color: black !important;
+}
+
+.tengah img {
+  box-sizing: none;
+}
+
+/* About Page */
+.container-about {
+  background-color: #fdeff4;
+}
+
+.title-about {
+  color: #ff5c8d;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-weight: bold;
+}
+
+#about {
+  margin-top: 4rem !important;
+}
+
+#about p {
+  text-align: justify;
+}
+
+/* Products */
+.title-products {
+  color: #ff5c8d;
+  font-family: "Lora", serif;
+  font-weight: bold;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+.cardWrapping {
+  background-color: #fdeff4;
+}
+
+/* CONTACT */
+.title-contact {
+  color: #ff5c8d;
+  font-family: "Lora", serif;
+  font-weight: bold;
+}
+
+.container-contact {
+  background-color: #fdeff4;
+}
+
+#contact p,
+#contact h3 {
+  font-family: "Work Sans", sans-serif;
+  /* font-size: 1rem; */
+}
+
+#contact h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#contact p {
+  font-size: 0.9rem;
+}
+
+/* FOOTER */
+.container-footer {
+  background-color: #423b3e;
+  color: white;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+/* media query */
+@media only screen and (max-width: 767px) {
+  .title-jumbotron {
+    text-align: center;
+  }
+
+  .subtitle-jumbotron {
+    text-align: center;
+  }
+
+  .button-jumbotron {
+    margin: auto !important;
+    width: 50% !important;
+    margin-left: auto !important;
+  }
+
+  .tengah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contact img {
+    width: 80%;
+  }
+}
