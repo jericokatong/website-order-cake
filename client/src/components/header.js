@@ -14,13 +14,13 @@ const Header = () => {
             <Nav.Link href="#home" className="mouseHover p-3">
               Home
             </Nav.Link>
-            <Nav.Link href="#link" className="mouseHover p-3">
+            <Nav.Link href="#about" className="mouseHover p-3">
               About
             </Nav.Link>
-            <Nav.Link href="#link" className="mouseHover p-3">
+            <Nav.Link href="#products" className="mouseHover p-3">
               Products
             </Nav.Link>
-            <Nav.Link href="#link" className="mouseHover p-3">
+            <Nav.Link href="#contact" className="mouseHover p-3">
               Contact
             </Nav.Link>
           </Nav>

@@ -15,8 +15,8 @@ const Products = () => {
                 <Card.Body>
                   <Card.Title>
                     <Row>
-                      <Col>Cake</Col>
-                      <Col className="d-flex justify-content-end">Rp. 1000</Col>
+                      <Col className="title-cake">Cake</Col>
+                      <Col className="price d-flex justify-content-end">Rp. 1000</Col>
                     </Row>
                   </Card.Title>
                   <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
@@ -29,8 +29,8 @@ const Products = () => {
                 <Card.Body>
                   <Card.Title>
                     <Row>
-                      <Col>Cake</Col>
-                      <Col className="d-flex justify-content-end">Rp. 1000</Col>
+                      <Col className="title-cake">Cake</Col>
+                      <Col className="price d-flex justify-content-end">Rp. 1000</Col>
                     </Row>
                   </Card.Title>
                   <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
@@ -43,8 +43,8 @@ const Products = () => {
                 <Card.Body>
                   <Card.Title>
                     <Row>
-                      <Col>Cake</Col>
-                      <Col className="d-flex justify-content-end">Rp. 1000</Col>
+                      <Col className="title-cake">Cake</Col>
+                      <Col className="price d-flex justify-content-end">Rp. 1000</Col>
                     </Row>
                   </Card.Title>
                   <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
@@ -57,8 +57,8 @@ const Products = () => {
                 <Card.Body>
                   <Card.Title>
                     <Row>
-                      <Col>Cake</Col>
-                      <Col className="d-flex justify-content-end">Rp. 1000</Col>
+                      <Col className="title-cake">Cake</Col>
+                      <Col className="price d-flex justify-content-end">Rp. 1000</Col>
                     </Row>
                   </Card.Title>
                   <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
@@ -71,8 +71,8 @@ const Products = () => {
                 <Card.Body>
                   <Card.Title>
                     <Row>
-                      <Col>Cake</Col>
-                      <Col className="d-flex justify-content-end">Rp. 1000</Col>
+                      <Col className="title-cake">Cake</Col>
+                      <Col className="price d-flex justify-content-end">Rp. 1000</Col>
                     </Row>
                   </Card.Title>
                   <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
@@ -85,8 +85,8 @@ const Products = () => {
                 <Card.Body>
                   <Card.Title>
                     <Row>
-                      <Col>Cake</Col>
-                      <Col className="d-flex justify-content-end">Rp. 1000</Col>
+                      <Col className="title-cake">Cake</Col>
+                      <Col className="price d-flex justify-content-end">Rp. 1000</Col>
                     </Row>
                   </Card.Title>
                   <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>

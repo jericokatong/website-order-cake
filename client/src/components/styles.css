@@ -68,8 +68,14 @@
   margin-top: 4rem !important;
 }
 
+#about h4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+
 #about p {
   text-align: justify;
+  font-family: "Lora", serif;
 }
 
 /* Products */
@@ -77,6 +83,11 @@
   color: #ff5c8d;
   font-family: "Lora", serif;
   font-weight: bold;
+}
+
+.title-cake,
+.price {
+  font-family: "Oswald", sans-serif;
 }
 
 .container {

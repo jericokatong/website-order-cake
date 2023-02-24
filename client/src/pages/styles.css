@@ -1,0 +1,33 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.form-container {
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 238, 243);
+  background: linear-gradient(0deg, rgba(255, 238, 243, 1) 0%, rgba(252, 207, 221, 1) 100%);
+}
+
+.form-group {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.login-title {
+  text-align: center;
+}
+
+.login-description {
+  text-align: center;
+}
+
+.button-login {
+  background-color: #ff5c8d !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.icon-eye {
+  cursor: pointer;
+}
